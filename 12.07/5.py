@@ -1,0 +1,5 @@
+tu_num1 = ('p', 'y', 't', ['o', 'n'])
+new_list = list(tu_num1)
+new_list[-1].insert(1, 'h')
+new_tu_num1 = tuple(new_list)
+print(new_tu_num1)
